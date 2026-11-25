@@ -1,0 +1,22 @@
+.ceacliu-pol{margin:0 0 1.2em;width:100%;clear:both}
+.ceacliu-pol .cpol-group{border:1px solid rgba(0,0,0,.12);border-radius:10px;padding:10px 14px;margin:0 0 12px;background:rgba(255,255,255,.6)}
+.ceacliu-pol div.cpol-group{border:0;padding:0;background:none}
+.ceacliu-pol .cpol-group-title{font-weight:700;font-size:1.05em;margin:0 0 6px}
+.ceacliu-pol .cpol-field{margin:0 0 12px}
+.ceacliu-pol .cpol-label{font-weight:600;margin:0 0 4px}
+.ceacliu-pol .cpol-label abbr{text-decoration:none;color:#c00}
+.ceacliu-pol .cpol-hint,.ceacliu-pol .cpol-desc{font-weight:400;font-size:.9em;opacity:.75}
+.ceacliu-pol .cpol-desc{margin:0 0 6px}
+.ceacliu-pol .cpol-choices{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:6px}
+.ceacliu-pol .cpol-choice{display:flex;align-items:center;gap:8px;margin:0;padding:8px 10px;border:1px solid rgba(0,0,0,.15);border-radius:8px;cursor:pointer;line-height:1.25;background:#fff;color:#222}
+.ceacliu-pol .cpol-choice input{margin:0;flex:none}
+.ceacliu-pol .cpol-choice .cpol-name{flex:1}
+.ceacliu-pol .cpol-choice .cpol-price{font-size:.9em;opacity:.75;white-space:nowrap}
+.ceacliu-pol .cpol-choice.is-on{border-color:currentColor;box-shadow:inset 0 0 0 1px currentColor}
+.ceacliu-pol .cpol-choice.is-off{opacity:.45;cursor:not-allowed}
+.ceacliu-pol .cpol-input{width:100%;max-width:100%;box-sizing:border-box}
+.ceacliu-pol .cpol-error{color:#c00;font-size:.9em;margin-top:4px}
+.ceacliu-pol .has-error .cpol-choice,.ceacliu-pol .has-error .cpol-input{border-color:#c00}
+.ceacliu-pol .cpol-total{display:flex;justify-content:space-between;align-items:baseline;padding:10px 14px;border-radius:10px;background:rgba(0,0,0,.05);font-size:1.05em}
+.ceacliu-pol .cpol-total strong{font-size:1.25em}
+.ceacliu-pol .cpol-total[hidden]{display:none}
